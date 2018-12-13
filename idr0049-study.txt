@@ -1,0 +1,112 @@
+# FILL IN AS MUCH INFORMATION AS YOU CAN.  HINTS HAVE BEEN PUT IN SOME FIELDS AFTER THE HASH # SYMBOL. REPLACE THE HINT WITH TEXT WHERE APPROPRIATE.						
+						
+# STUDY DESCRIPTION SECTION						
+# Section with generic information about the study including title, description, publication details (if applicable) and contact details						
+						
+Comment[IDR Study Accession]	# leave blank					
+Study Title	A quantitative analysis of 3D-cell distribution in regenerating muscle-skeletal system with synchrotron X-ray computed microtomography					
+Study Type	Computed tomography experiments					
+Study Type Term Source REF	EFO					
+Study Type Term Accession Number	EFO_0007550					
+Study Description	One of the greatest enigmas of modern biology is how the geometry of muscular and skeletal structures are created and how their development is controlled during growth and regeneration. Scaling and shaping of vertebrate muscles and skeletal elements has always been enigmatic and required an advanced technical level in order to analyse the cell distribution in 3D. In this work, synchrotron X-ray computed microtomography (µCT) and chemical contrasting has been exploited for a quantitative analysis of the 3D-cell distribution in tissues of a developing salamander (Pleurodeles waltl) limb ñ a key model organism for vertebrate regeneration studies. We mapped the limb muscles, their size and shape as well as the number and density of cells within the extracellular matrix of the developing cartilage. By using tomographic approach, we explored the polarity of the cells in 3D, in relation to the structure of developing joints. We found that the polarity of chondrocytes correlates with the planes in joint surfaces and also changes along the length of the cartilaginous elements. Our approach generates data for the precise computer simulations of muscle-skeletal regeneration using cell dynamics models, which is necessary for the understanding how anisotropic growth results in the precise shapes of skeletal structures.					
+Study Organism	Pleurodeles waltl					
+Study Organism Term Source REF	NCBITaxon					
+Study Organism Term Accession Number						
+Study Screens Number	1					
+Study External URL	https://www.nature.com/articles/s41598-018-32459-2					
+Study Public Release Date	20.9.2018					
+						
+# Study Publication						
+Study PubMed ID	30237460					
+Study Publication Title	A†quantitative†analysis†of†3D-cell†distribution†in†regenerating†muscle-skeletal†system†with†synchrotron†X-ray†computed†microtomography					
+Study Author List	Tesarova Marketa, Mancini Lucia, Simon Andras, Adameyko Igor, Kaucka Marketa, Elewa Ahmed, Lanzafame Gabriele, Zhang Yi, Kalasova Dominika, Szarowska Bara, Zikmund Tomas, Novotna Marie, Kaiser Jozef					
+Study PMC ID	# fill in if known					
+Study DOI	10.1038/s41598-018-32459-2					
+						
+# Study Contacts						
+Study Person Last Name	Kaiser Jozef					
+Study Person First Name	Tesarova Marketa					
+Study Person Email	kaiser@fme.vutbr.cz					
+Study Person Address	Purkynova 656/123, Brno, 61200					
+Study Person ORCID	0000-0002-7397-125X					
+Study Person Roles	submitter					
+						
+# Study License and Data DOI						
+Study License	# leave blank					
+Study License URL	# leave blank					
+Study Data Publisher	# leave blank					
+Study Data DOI	# leave blank					
+						
+Term Source Name	NCBITaxon	EFO	CMPO	Fbbi		
+Term Source File	http://purl.obolibrary.org/obo/	http://www.ebi.ac.uk/efo/	http://www.ebi.ac.uk/cmpo/	http://purl.obolibrary.org/obo/		
+						
+						
+# SCREEN SECTION						
+# Screen Section containing all information relative to each screen in the study including materials used, protocols names and description, phenotype names and description. 						
+# For multiple screens this section should be repeated.  Copy and paste the whole section below and fill out for the next screen.						
+						
+Screen Number	1					
+Comment[IDR Screen Name]	# leave blank					
+Screen Description	Tomographic dataset of the salamander limb (Pleurodeles waltl) developmental stage 55A.					
+Screen Size	Plates: 	5D Images: 	Planes: 	Average Image Dimension (XYZCT): 591x633x1293	Total Tb: 	# fill in any values you know
+Screen Example Images	Slice 721					
+Screen Imaging Method	X-ray computed tomography					
+Screen Imaging Method Term Source REF	Fbbi					
+Screen Imaging Method Term Accession	# look up in http://www.ebi.ac.uk/ols/ontologies/fbbi or leave blank					
+Screen Technology Type	# choose from: RNAi screen, gene deletion screen, protein screen, compound screen, antibody screen, ORF overexpression screen, or enter your own value					
+Screen Technology Type Term Source REF	# leave blank					
+Screen Technology Type Term Accession	# leave blank					
+Screen Type	primary screen					
+Screen Type Term Source REF						
+Screen Type Term Accession						
+Screen Comments	# if there is anything you want to say about the screen not covered elsewhere enter it here e.g. images for plate 3 are missing due to corruption					
+						
+# Library section. The library file should be supplied separately and it should contain  the reagents description including, at the absolute minimum: reagent ID, sequences and position in the layout (= plate + position in the plate)						
+Library File Name	# name of the library file					
+Library File Format	tab-delimited text					
+Library Type	# choose from siRNA library, haploid deletion library, diploid homozygous deletion library, GFP protein fusion library, YFP protein fusion library, HA-Flag protein fusion library,compound library, antibody library, ORF library or enter your own value					
+Library Type Term Source REF	EFO					
+Library Type Term Accession	# leave blank					
+Library Manufacturer	# who manufactured the library, or who it was obtained from (if applicable)					
+Library Version	# the version number (if applicable)					
+Library Experimental Conditions	# if there were any experimental conditions some cells were grown under as part of the study enter the information here e.g. different environmental stress conditions, or mutant background compared to wild type.					
+Library Experimental Conditions Term Source REF	EFO					
+Library Experimental Conditions Term Accession	# leave blank					
+Quality Control Description	# a brief description of the kind of quality control measures that were taken (if applicable)					
+						
+# Protocols						
+Protocol Name	growth protocol	treatment protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol	
+Protocol Type	growth protocol	treatment protocol	HCS library protocol	HCS image acquistion and feature extraction protocol	HCS data analysis protocol	
+Protocol Type Term Source REF	EFO	EFO	EFO	EFO	EFO	
+Protocol Type Term Accession Number	EFO_0003789	EFO_0003969	EFO_0007571	EFO_0007572	EFO_0007573	
+Protocol Description		Te Pleurodeles waltl (Spanish ribbed newt) colony was established from fertilized eggs produced in a laboratory colony located in Madrid, Spain. Animals originating from a wild population in the Donana National Park (Spain) were obtained for research purposes by Agustin Gonzalez. Te animals, used to prove the concept study were 4th/5th generation, developmental stage 41ñ42, 44ñ45 and 55A (approximate length of the whole larva was 3.7 cm). Staging of the larva was performed according to Joven et al. Te frontal amputated limbs were briefy washed in PBS and fxed in freshly mixed 4% PFA for 12hours at +4 degrees. A contrasting of the developing limbs was performed as follows: the samples were dehydrated in increasing ethanol grade (30%, 50%, 70%, 90%) at room temperature, 2 hours for each step, using a slow rotation of the samples. Te samples were transferred into a solution of 0.7% PTA (phosphotungstic acid) in 90% methanol and incubated at +4 degrees for 5 days using slow rotation and the PTA-contrasting solution was changed afer every 24 hours for a fresh one. Te samples were washed with 90% methanol overnight at +4 degrees and then rehydrated in a decreasing ethanol grade (90%, 70%, 50%, 30%) at room temperature, 2hours for each step and slow rotation.	# text about how the library was selected if not genome wide, transfection, knock outs etc.	Te contrast of the stained samples was checked by a conventional X-ray µCT. Following that, the developing limbs were embedded in 1.0% of agarose gel and placed in polypropylene tubes to avoid movement artefacts during tomography scanning. A polypropylene tube was fxed on a plastic rod by a silicone gun. Te rod, containing the sample, was put in the centre of the rotation stage axis. A ?CT scanning was performed using the laboratory system GE Phoenix v|tome|x L 240 (GE Sensing & Inspection Technologies GmbH, Germany) with a 180kV/15W maximum power nanofocus X-ray tube and a high contrast, fat panel detector DXR250 with 2048◊2048 px2 and a pixel size of 200◊200?m2 . Exposure time was 900ms in each of the 2200 projections acquired over a total angle of 360∞. Te utilized acceleration voltage and the current of the X-ray tube were 60 kV and 200?A, respectively. Te beam was fltered by a 0.2 mm-thick aluminium flter to reduce beam-hardening artefacts. Te tomographic reconstruction was done using the sofware GE phoenix datos|x 2.0 (GE Sensing & Inspection Technologies GmbH, Germany) with an isotropic voxel size of 2.5?m.	Reconstructed slices were further analysed using the freeware ImageJ and the Pore3D sofware library. Firstly, the segmentation of cartilaginous elements was carried out using the plugin ABSnake with a gradient threshold of 30 and a setting of 50 iterations. Tis plugin was applied to the dataset fltered by a Median 3D flter with a radius of 10 in all three dimensions. Te fnal cartilaginous element (i.e. developing P. waltl forearm) was obtained in ImageJ by using the segmented slices as a transparent-zero mask on the original, non-fltered dataset. Further analyses were carried out by using Pore3D. To separate the background, the extracellular matrix and the bright cell nucleus, a 3D K-means clustering algorithm was applied to divide the data into three classes. Te binary image of the class represented by the cell nuclei was consequently processed by the erosion and the blob analysis modules of Pore3D, which allowed for the determination of the number of blobs, i.e. the number of cells. Cell polarization was determined using the sofware, VGStudio Max 3.1, with its module Fiber orientation analysis. Te diferent tissues such as the skin epithelium and muscles were segmented semi-automatically in combination with the sofware Avizo and VGStudio Max 2.2 according to Tesarova et al.	
+						
+						
+# Phenotypes						
+Phenotype Name	# list phenotypes found in the screen here, one in each column					
+Phenotype Description	# give a brief description of each phenotype, or how it was determined e.g. if score X is greater than Y then this phenotype assigned.					
+Phenotype Score Type	# choose from: manual, automatic					
+Phenotype Term Source REF	CMPO					
+Phenotype Term Name	# if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter it here http://www.ebi.ac.uk/ols/ontologies/cmpo					
+Phenotype Term Accession	# if your phenotype matches a term in the Cellular Microscopy Phenotype Ontology enter it here http://www.ebi.ac.uk/ols/ontologies/cmpo					
+						
+# Raw Data Files						
+Raw Image Data Format	raw format					
+Raw Image Organization	Image stack of 1293 slices: 591x633 pixel sizde					
+						
+# Feature Level Data Files						
+Feature Level Data File Name	# list any feature level table files here					
+Feature Level Data File Description	# a description of the table					
+Feature Level Data File Format	# tab-delimited text or other format					
+Feature Level Data Column Name	# list all the columns in the table, each column in the table should be in a separate column here					
+Feature Level Data Column Description	# describe the values in each column					
+						
+#  Processed Data Files 						
+Processed Data File Name	processed_segmentation1_329x306x1125	processed_segmentation2_178x366x1244				
+Processed Data File Format	tab-delimited text					
+Processed Data File Description	Two inarized dataset corresponding to the segmentation of cells inside the cartilage of ulna and radius of the salamander limb.					
+Processed Data Column Name	# list each of the columns in the processed data file here, each column in the table should be ain a separate column here					
+Processed Data Column Type	# state the type of value in each column. Choose from: plate, well, reagent identifier, gene identifier, gene symbol, gene description, data, phenotype, experimental condition					
+Processed Data Column Annotation Level	# for data and phenotype columns enter the level of the annotation so that it is clear if the value is derived from data from a single well, is averaged over replicates of a reagent, or is at the gene level. Choose from: well, single replicate of reagent, multiple replicates of reagent, gene, reagent and experimental condition, gene and experimental condition.  					
+Processed Data Column Description	# for each data and phenotype column, enter a brief description of what the value represents					
+Processed Data Column Link To Library File	# enter which column can be used to link the information in the processed data file to the library file e.g. gene identifier, siRNA identifier, or Plate_Well combination					
